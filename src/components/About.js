@@ -6,26 +6,19 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Reed.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            Hello, I am Namra Mahak, a front-end developer absed in United Kingdom.
+            <br className="hidden lg:inline-block" />I build functional and scalable front-end products with exceptional user experience.
           </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
           <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+            <a href="#contact" className="inline-flex text-[#fff] bg-[#111] border-0 py-2 px-6 focus:outline-none rounded text-lg backdrop-blur-sm">
+              View Resume
             </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
+          </div>
+          <div>
+            <p className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Stack</p>
+            <div className="bg-[#f5f5f5] rounded shadow-md">
+            <i class="ri-tailwind-css-line text-[#282828] p-2"></i>
+            </div>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
